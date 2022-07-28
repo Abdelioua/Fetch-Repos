@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+
+.repo-container {
+  width: 800px;
+  margin: auto;
+  background-color: #f6f6f6;
+}
+.repo-container .get-repos {
+  display: flex;
+  padding: 10px;
+  background-color: #eee;
+}
+input {
+  width: 100%;
+  border: none;
+  height: 54px;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+input:focus {
+  outline-color: #f36;
+}
+.repo-container .btn {
+  background-color: #f36;
+  color: white;
+  font-weight: bold;
+  width: 140px;
+  text-align: center;
+  height: 54px;
+  line-height: 54px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.show-repo {
+  background-color: #ccc;
+  padding: 20px;
+}
+.main-box {
+  padding: 10px;
+  background-color: white;
+}
+.main-box:not(:last-child) {
+  margin-bottom: 5px;
+}
+.link,
+.star {
+  float: right;
+  color: white;
+  padding: 2px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.link {
+  background-color: #f36;
+  margin-left: 4px;
+}
+
+.star {
+  background-color: #03a9f4;
+}
